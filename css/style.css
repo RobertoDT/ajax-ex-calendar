@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.calendar-wrapper{
+  width: 400px;
+  margin: 50px auto;
+}
+
+header{
+  text-align: center;
+}
+
+.arrow-container{
+  font-size: 20px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.fa-chevron-left{
+  margin-right: 10px;
+  vertical-align: text-bottom;
+}
+.fa-chevron-right{
+  margin-left: 10px;
+  vertical-align: text-bottom;
+}
+
+#days{
+  text-align: center;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.holiday{
+  color: red;
+  font-weight: bold;
+}
